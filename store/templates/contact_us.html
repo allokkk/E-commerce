@@ -1,0 +1,58 @@
+
+
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+	<div class="p-5 m-3">
+		<div class="text-center col">
+					<div class="col-lg-10 rounded mx-auto border pt-4">
+
+				<center><img
+					src="https://th.bing.com/th/id/Rd51d7c0fde6d96a31538a86cbd57f3c0?rik=%2fTJxRkU2V371QQ&riu=http%3a%2f%2ftechnologyend.com%2fwp-content%2fuploads%2f2015%2f11%2fwhy-shop-online.jpg&ehk=v1KiYT0i5U1ABCRueDSdLqnazh2BdlVD89Z4qXE0Kgs%3d&risl=&pid=ImgRaw" alt=""
+					class="" style="height: 150px;"></center>
+           <br>
+			    <div class="alert alert-light rounded-pill" style="text-align:center" > Contact us about anything related to our company or services. We’ll do our best to get back to you as soon as possible.</div>
+
+
+				<form style="text-align: center" method="POST" class="contact-form" >
+
+
+						<div class="tag">Full Name</div>
+						<input type="text" name="full-name">
+
+
+
+						<div class="tag">Email</div>
+						<input type="text" name="email">
+
+
+
+						<div class="tag">Subject</div>
+						<input type="text" name="subject">
+
+
+
+						<div class="tag">Message</div>
+						<textarea name="message" rows="10″ cols="30″>
+						</textarea><br><br>
+
+
+
+						<!--<input type="submit" class="btn submit-btn" value="Send Message">
+             -->
+						<input type="submit" onclick="location.href='/pay.html';" value="Submit" />
+
+
+		</form>
+
+	</div>
+</div>
+
+</div>
+</div>
+
+{% endblock %}
